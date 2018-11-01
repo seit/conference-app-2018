@@ -219,7 +219,9 @@ dependencies {
 }
 
 repositories {
+    google()
     mavenCentral()
+    jcenter()
 }
 
 play {

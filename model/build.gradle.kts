@@ -22,6 +22,13 @@ apply {
     plugin("kotlin")
 }
 
+repositories {
+    google()
+    mavenCentral()
+    jcenter()
+
+}
+
 dependencies {
     compile(kotlin("stdlib-jre7", Versions.kotlin))
 }
